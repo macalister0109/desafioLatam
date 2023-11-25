@@ -78,11 +78,20 @@ header .title{
 }
 
 footer{
-    height: 6em;
+    height: 9em;
     line-height: 3em;
     background-color:  rgb(23, 66, 122);
     color: #fff;
     text-align: center;
     font-weight: 900;
 
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.rrss{
+    width: 3em;
 }
