@@ -6,13 +6,25 @@
 
 header{
     margin: 0;
-    height: 20em;
+    height: 10em;
+    padding: 5em;
     background-image: url(../img/tech.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .logo{
-    width: 350px;
+    margin: auto;
+    width: 150px;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header .title{
+    margin: 0;
+    color:#08b4fc ;
+
 }
 
