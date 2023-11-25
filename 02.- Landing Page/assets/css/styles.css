@@ -47,7 +47,7 @@ header .title{
 .menu > li{
     display: inline-block;
     position: relative;
-    padding: 1em;
+    padding: 0;
     
 }
 .menu > li > a{
@@ -58,6 +58,10 @@ header .title{
 	text-decoration: none;
 }
 
+.menu > li > a:hover{
+    background: #fff;
+    color: #000;
+}
 .item{
     width: 300px;
 }
@@ -93,5 +97,5 @@ footer a{
 }
 
 .rrss{
-    width: 3em;
+    width: 2em;
 }
