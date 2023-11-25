@@ -1,7 +1,14 @@
 *{
+    /*aquí se le quitan todas las configuraciones del navegador para
+    comenzar a trabajar las propias, una limpieza de configuraciones*/
     margin: 0;
-    border: 0;
-    padding: 0;   
+    border:0;
+    padding: 0;
+}
+body{
+    width: 80%;
+    margin: 0 10% 0 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header{
@@ -18,13 +25,64 @@ header{
     width: 150px;
 }
 
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
 
 header .title{
     margin: 0;
-    color:#08b4fc ;
-
+    color:#ffffff ;
+    margin-bottom: 0.1em;
 }
 
+.navegacion{
+   
+    margin: 0;
+    background: rgb(23, 66, 122);
+    text-align: right;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    display: inline-block;
+    position: relative;
+    padding: 1em;
+    
+}
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color:#fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.item{
+    width: 300px;
+}
+
+.servicios{
+    width: 80%;
+    margin: auto;
+}
+
+.servicios .td{
+    width: 50%;
+    padding: 2em;
+}
+
+.servicios img{
+    width: 100%;
+    border: solid 1px #ddd;
+}
+
+footer{
+    height: 6em;
+    line-height: 3em;
+    background-color:  rgb(23, 66, 122);
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+
+}
