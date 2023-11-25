@@ -62,6 +62,22 @@ header .title{
     background: #fff;
     color: #000;
 }
+.welcome{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 2em;
+}
+.welcome h2{
+    font-size: 2em;
+    color: rgb(23, 66, 122);
+    font-weight: 900;
+}
+.weloome p{
+    font-size: 1.2em;
+    color: #000;
+    font-weight: 300;
+}
 .item{
     width: 300px;
 }
