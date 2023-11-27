@@ -178,3 +178,7 @@ footer a{
     font-size: 1em;
 }
 
+.img_table{
+    width: 100%;
+    border-collapse: collapse;
+}
