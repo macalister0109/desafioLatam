@@ -115,3 +115,22 @@ footer a{
 .rrss{
     width: 2em;
 }
+
+.titulo{
+    font-size: 1.5em;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+}
+.titulo img{
+    margin: 1em;
+    padding: 0.5em;
+    background-color: rgb(23, 66, 122);
+    width: 20%;
+    border: solid 1px rgb(23, 66, 122);
+    border-radius:50%;
+}
+.resumen{
+    margin: 1em;
+}
+
+
