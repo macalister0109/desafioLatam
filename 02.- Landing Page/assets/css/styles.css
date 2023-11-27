@@ -130,7 +130,51 @@ footer a{
     border-radius:50%;
 }
 .resumen{
+    
     margin: 1em;
+    padding: 1em;
+    text-align: justify;
+}
+.datos{
+  margin: 1em;
+  padding: 1em;
 }
 
+.datos h3{
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.datos table{
+    width: 52%;
+    border-collapse: collapse;
+
+}
+
+
+.edu{
+    margin: 1em;
+    padding: 1em;
+}
+.edu h3{
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.edu table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.hab{
+    margin: 1em;
+    padding: 1em;
+}
+.hab h3{
+    
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.hab ul{
+    list-style: lower-greek;
+    font-size: 1em;
+}
 
