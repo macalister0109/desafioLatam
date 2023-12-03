@@ -15,4 +15,17 @@ header{
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
+.img_iguana{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.articulo {
+   display:flex;
+   margin:2em;
+   padding:0.5em; 
+   background-color:#000000;
+   color:#ffffff;
+}
 
