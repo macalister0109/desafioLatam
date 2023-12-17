@@ -12,7 +12,7 @@ body{
 }
 .card{
     margin: 0 auto;
-    
+   width: 18rem; 
 }
 .my-4{
     width: 18rem;
