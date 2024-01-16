@@ -1,231 +1,231 @@
-*{
-    /*aquí se le quitan todas las configuraciones del navegador para
+* {
+  /*aquí se le quitan todas las configuraciones del navegador para
     comenzar a trabajar las propias, una limpieza de configuraciones*/
-    margin: 0;
-    border:0;
-    padding: 0;
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
-body{
-    width: 80%;
-    margin: 0 10% 0 10%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-header{
-    margin: 0;
-    height: 10em;
-    padding: 5em;
-    background-image: url(../img/tech.jpg);
-    background-size: cover;
-    background-position: center;
+body {
+  width: 80%;
+  margin: 0 10% 0 10%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.logo{
-    margin: auto;
-    width: 150px;
+header {
+  margin: 0;
+  height: 10em;
+  padding: 5em;
+  background-image: url(../img/tech.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.header{
+  height: 20em;
 }
 
-
-
-header .title{
-    margin: 0;
-    color:#ffffff ;
-    margin-bottom: 0.1em;
+.logo {
+  margin: auto;
+  width: 150px;
 }
 
-.navegacion{
-   
-    margin: 0;
-    background: rgb(23, 66, 122);
-    text-align: right;
+header .title {
+  margin: 0;
+  color: #ffffff;
+  margin-bottom: 0.1em;
 }
 
-.navegacion ul{
-    list-style: none;
+.navegacion {
+  margin: 0;
+  background: rgb(23, 66, 122);
+  text-align: right;
 }
 
-.menu > li{
-    display: inline-block;
-    position: relative;
-    padding: 0;
-    
-}
-.menu > li > a{
-	display: block;
-	padding: 15px 20px;
-	color:#fff;
-	font-family: 'Open sans';
-	text-decoration: none;
+.navegacion ul {
+  list-style: none;
 }
 
-.menu > li > a:hover{
-    background: #fff;
-    color: #000;
+.menu > li {
+  display: inline-block;
+  position: relative;
+  padding: 0;
 }
-.welcome{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding: 2em;
-}
-.welcome h2{
-    font-size: 2em;
-    color: rgb(23, 66, 122);
-    font-weight: 900;
-}
-.weloome p{
-    font-size: 1.2em;
-    color: #000;
-    font-weight: 300;
-}
-.item{
-    width: 300px;
+.menu > li > a {
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
+  font-family: "Open sans";
+  text-decoration: none;
 }
 
-.servicios{
-    width: 80%;
-    margin: auto;
+.menu > li > a:hover {
+  background: #fff;
+  color: #000;
+}
+.welcome {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 2em;
+}
+.welcome h2 {
+  font-size: 2em;
+  color: rgb(23, 66, 122);
+  font-weight: 900;
+}
+.weloome p {
+  font-size: 1.2em;
+  color: #000;
+  font-weight: 300;
+}
+.item {
+  width: 300px;
 }
 
-.servicios .td{
-    width: 50%;
-    padding: 2em;
+.servicios {
+  width: 80%;
+  margin: auto;
 }
 
-.servicios img{
-    width: 100%;
-    border: solid 1px #ddd;
+.servicios .td {
+  width: 50%;
+  padding: 2em;
 }
 
-footer{
-    height: 9em;
-    line-height: 3em;
-    background-color:  rgb(23, 66, 122);
-    color: #fff;
-    text-align: center;
-    font-weight: 900;
-
+.servicios img {
+  width: 100%;
+  border: solid 1px #ddd;
 }
 
-footer a{
-    color: #fff;
-    text-decoration: none;
+footer {
+  height: 12em;
+  line-height: 3em;
+  background-color: rgb(23, 66, 122);
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
 }
 
-.rrss{
-    width: 2em;
+footer a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.titulo{
-    font-size: 1.5em;
-    font-weight: 900;
-    color: rgb(0, 0, 0);
+.rrss {
+  width: 2em;
 }
-.titulo img{
-    margin: 1em;
-    padding: 0.5em;
-    background-color: rgb(23, 66, 122);
-    width: 20%;
-    border: solid 1px rgb(23, 66, 122);
-    border-radius:50%;
+
+.titulo {
+  font-size: 1.5em;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
 }
-.resumen{
-    
-    margin: 1em;
-    padding: 1em;
-    text-align: justify;
+.titulo img {
+  margin: 1em;
+  padding: 0.5em;
+  background-color: rgb(23, 66, 122);
+  width: 20%;
+  border: solid 1px rgb(23, 66, 122);
+  border-radius: 50%;
 }
-.datos{
+.resumen {
+  margin: 1em;
+  padding: 1em;
+  text-align: justify;
+}
+.datos,
+.edu,
+.hab,
+.exp {
   margin: 1em;
   padding: 1em;
 }
 
-.datos h3{
-    font-size: 1.2em;
-    font-weight: 900;
+.datos h3 {
+  font-size: 1.2em;
+  font-weight: 900;
 }
-.datos table{
-    width: 52%;
-    border-collapse: collapse;
-
-}
-
-
-.edu{
-    margin: 1em;
-    padding: 1em;
-}
-.edu h3{
-    font-size: 1.2em;
-    font-weight: 900;
-}
-.edu table{
-    width: 100%;
-    border-collapse: collapse;
+.datos table {
+  width: 52%;
+  border-collapse: collapse;
 }
 
-.hab{
-    margin: 1em;
-    padding: 1em;
+.edu {
+  margin: 1em;
+  padding: 1em;
 }
-.hab h3{
-    
-    font-size: 1.2em;
-    font-weight: 900;
+.edu h3 {
+  font-size: 1.2em;
+  font-weight: 900;
 }
-.hab ul{
-    list-style: lower-greek;
-    font-size: 1em;
-}
-
-.port h3{
-    font-size: 1.2em;
-    font-weight: 900;
+.edu table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.img_table{
-    margin: 0.5em;
-    padding: 0.5em;
-    width: 95%;
-    border-collapse: collapse;
+.hab {
+  margin: 1em;
+  padding: 1em;
+}
+.hab h3 {
+  font-size: 1.2em;
+  font-weight: 900;
+}
+.hab ul {
+  list-style: lower-greek;
+  font-size: 1em;
 }
 
-.hola{
-    width: 100%;
-    margin: 1em;
-    padding: 1em;
+.port h3 {
+  font-size: 1.2em;
+  font-weight: 900;
 }
 
-.hola .texto{
-    background-color:  rgb(23, 66, 122);
-    font-family: 'Times New Roman', Times, serif;
-    color: #fff;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    width: 95%;
-    text-align: justify;
+.img_table {
+  margin: 0.5em;
+  padding: 0.5em;
+  width: 95%;
+  border-collapse: collapse;
 }
 
+.hola {
+  width: 100%;
+  margin: 1em;
+  padding: 1em;
+}
+
+.hola .texto {
+  background-color: rgb(23, 66, 122);
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  text-align: justify;
+}
+
+ol li .flag {
+  width: 20px;
+}
 
 /* 1200px / 16px = 75em */
 @media (max-width: 75em) {
-    html {
-      font-size: 60%;
-    }
+  html {
+    font-size: 60%;
   }
-  
-  /* 980px / 16px = 61.25em */
-  @media (max-width: 61.25em) {
-    html {
-      font-size: 58%;
-    }
+}
+
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
   }
-  
-  /* 460px / 16px = 28.75em */
-  @media (max-width: 28.75em) {
-    html {
-      font-size: 55%;
-    }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
   }
-  
+}
