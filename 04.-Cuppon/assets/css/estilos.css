@@ -1,0 +1,66 @@
+:root{
+    --ligth:#f8f9fa;
+    --white:#fff;
+    --success: #28a745;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand img{
+    width: 82px;
+}
+.card{
+    margin: 0 auto;
+   width: 18rem; 
+}
+.my-4{
+    width: 18rem;
+}
+
+.text-secondary{
+    font-weight: 80;
+    color: #707070;
+    margin: 0;
+}
+
+.text-secondary-2{
+    font-size: 13px;
+    color:#707070;
+    font-weight: 80;
+}
+.text-success{
+    font-size: 20px;
+    font-weight: 62px;
+}
+
+.precios{
+    text-align: right;
+}
+.bg-verde{
+    background-color: var(--success);
+}
+
+form{
+	margin: 0 auto;
+}
+
+hr {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+footer{
+	text-align: center;
+}
+
+footer img{
+	width: 82px;
+	padding-top: 30px;
+}
+
+footer p{
+	color:#707070;
+	font-weight:100;
+}
+
